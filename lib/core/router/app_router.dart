@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meals_ordering_app/core/router/routes.dart';
+import 'package:meals_ordering_app/features/login/ui/login_screen.dart';
 import 'package:meals_ordering_app/features/onboarding/onboading_screen.dart';
 import 'package:meals_ordering_app/presentation/screans/detailsScrean.dart';
 import 'package:meals_ordering_app/presentation/screans/home_screan.dart';
@@ -12,6 +13,10 @@ class AppRouter {
       case RoutesString.homeScrean:
         return MaterialPageRoute(
           builder: (context) => const HomeScrean(),
+        );
+        case RoutesString.loginScreen:
+        return MaterialPageRoute(
+          builder: (context) => const LoginScreen(),
         );
          case RoutesString.onboardingScrean:
         return MaterialPageRoute(

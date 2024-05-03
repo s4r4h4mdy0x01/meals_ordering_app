@@ -8,14 +8,24 @@ class TextStyles {
     fontWeight: FontWeight.w700,
     color: Colors.black,
   );
-  static TextStyle font32OriginBold = TextStyle(
+  static TextStyle font32orangBold = TextStyle(
     fontSize: 32.sp,
     fontWeight: FontWeight.bold,
     color: ColorManager.primary,
   );
-   static TextStyle font24Origin = TextStyle(
+  static TextStyle font13GraySemiBold = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeight.normal,
+    color: ColorManager.grey,
+  );
+  static TextStyle font16WhiteSemiBold = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w500,
+    color: Colors.white,
+  );
+  static TextStyle font24Orang = TextStyle(
     fontSize: 24.sp,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w700,
     color: ColorManager.primary,
   );
 }

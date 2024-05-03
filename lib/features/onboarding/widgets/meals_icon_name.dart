@@ -18,7 +18,7 @@ class MealsIconAndName extends StatelessWidget {
           size: 24.sp,
         ),
         SizedBox(
-          width: 6.w,
+          width: 6.w, 
         ),
         Text(
           StringManager.titleApp,
