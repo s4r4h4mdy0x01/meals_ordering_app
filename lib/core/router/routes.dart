@@ -1,7 +1,6 @@
 class RoutesString {
-  static const String splashScrean = '/';
   static const String homeScrean = '/homeScrean';
   static const String detailsScrean = '/detailsScrean';
-   static const String onboardingScrean = '/onboardingScrean ';
-      static const String loginScreen = '/loginScreen ';
+  static const String onboardingScrean = '/ ';
+  static const String loginScreen = '/loginScreen ';
 }
