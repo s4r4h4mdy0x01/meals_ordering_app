@@ -1,6 +1,15 @@
 # meals_ordering_app
 
-A new Flutter project.
+It is an application built using Flutter to display meals and drinks and search for them by name
+And filter by categories.
+
+##
+
+Tools
+
+1.  flutter widgets
+2.  firebase authentication to (login and register )
+3.  api (api)[https://rapidapi.com/apidojo/api/yummly2]
 
 ## Getting Started
 
