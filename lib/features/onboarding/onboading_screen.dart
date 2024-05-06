@@ -12,35 +12,33 @@ class OnboardingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Scaffold(
-        body: SafeArea(
-          child: SingleChildScrollView(
-            child: Padding(
-              padding: EdgeInsets.only(top: 30.h, bottom: 30.h),
-              child: Column(
-                children: [
-                  const MealsIconAndName(),
-                  SizedBox(
-                    height: 60.h,
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Padding(
+            padding: EdgeInsets.only(top: 30.h, bottom: 30.h),
+            child: Column(
+              children: [
+                const MealsIconAndName(),
+                SizedBox(
+                  height: 60.h,
+                ),
+                const MealImageAndText(),
+                SizedBox(height: 90.h),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 30.w),
+                  child: Column(
+                    children: [
+                      Text(
+                        StringManager.subTitleOnboading,
+                        textAlign: TextAlign.center,
+                        style: TextStyles.font13GrayRegular,
+                      ),
+                      SizedBox(height: 30.h),
+                      const GetStartedButton(),
+                    ],
                   ),
-                  const MealImageAndText(),
-                  SizedBox(height: 90.h),
-                  Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 30.w),
-                    child: Column(
-                      children: [
-                        Text(
-                          StringManager.subTitleOnboading,
-                          textAlign: TextAlign.center,
-                          style: TextStyles.font13GraySemiBold,
-                        ),
-                        SizedBox(height: 30.h),
-                        const GetStartedButton(),
-                      ],
-                    ),
-                  )
-                ],
-              ),
+                )
+              ],
             ),
           ),
         ),

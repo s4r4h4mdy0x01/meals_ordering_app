@@ -6,4 +6,5 @@ class StringManager {
       'Simply order your meals and drinks online';
 
   static const String imageOnboading = 'assets/images/onboarding.jpg';
+   static const String login = 'Login';
 }

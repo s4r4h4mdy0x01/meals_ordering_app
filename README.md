@@ -9,7 +9,7 @@ Tools
 
 1.  flutter widgets
 2.  firebase authentication to (login and register )
-3.  api (api)[https://rapidapi.com/apidojo/api/yummly2]
+3.  api (api)[https://www.themealdb.com/api.php]
 
 ## Getting Started
 

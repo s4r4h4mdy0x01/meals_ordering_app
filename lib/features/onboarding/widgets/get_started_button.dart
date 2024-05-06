@@ -29,7 +29,7 @@ class GetStartedButton extends StatelessWidget {
       },
       child: Text(
         StringManager.getStartedOnboading,
-        style: TextStyles.font16WhiteSemiBold,
+        style: TextStyles.font16WhiteMedium,
       ),
     );
   }
